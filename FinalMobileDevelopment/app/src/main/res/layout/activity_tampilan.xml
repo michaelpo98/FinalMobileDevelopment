@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingRight="20dp"
+    android:paddingLeft="20dp"
+    tools:context=".tampilan">
+
+    <EditText
+        android:id="@+id/ETUser"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Input Username"
+        android:layout_centerInParent="true"
+        />
+
+    <EditText
+        android:id="@+id/ETPass"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Input Password"
+        android:layout_below="@+id/ETUser"
+        android:layout_marginTop="10dp"
+        />
+
+    <Button
+        android:id="@+id/btnLogin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ETPass"
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true"
+        android:text="Login"/>
+
+</RelativeLayout>
